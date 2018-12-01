@@ -1,0 +1,341 @@
+body{
+    font:14px/1.5 "Helevtica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB",
+        "Heiti SC","WenQuanYi Mico Hei",sans-serif;
+    color:#333;
+    background-color:#fff;
+    min-width:1226px;
+}
+
+.site-topbar{
+    position:relative;
+    z-index:30;
+    height:40px;
+    font-size:12px;
+    color:#b0b0b0;
+    background:#333;
+    display:block;
+}
+
+.container{
+    width:1226px;
+    margin-right:auto;
+    margin-left:auto;
+    font-size:12px;
+    color:#b0b0b0;
+    content:" ";
+    display:table;
+    clear:both;
+
+}
+
+div{
+    display:block;
+}
+
+.site-topbar  .topbar-nav{
+    float:left;
+    height:40px;
+    line-height:40px;
+    font-size:12px;
+    color:#b0b0b0;
+}
+.site-topbar a{
+    color:#b0b0b0;
+    line-height:40px;
+    display:inline-block;
+    text-decoration:none;
+    cursor:pointer;
+    font-size:12px;
+
+}
+
+.site-topbar  .sep{
+    margin:0.3em;
+    color:#424242;
+    font-family:sans-serif;
+    line-height:40px;
+    font-size:12px;
+}
+.site-topbar .shoppingcartIcon{
+    width:120px;
+    margin-left:15px;
+    position:relative;
+    float:right;
+    height:40px;
+    font-size:12px;
+    height:40px;
+}
+
+.site-topbar.cart-mini-num-J_cartNum{
+    margin-left:-4px;
+    line-height:40px;
+    text-align:center;
+    color:#b0b0b0;
+    cursor:pointer;
+    font-size:12px;
+}
+
+.site-topbar .cart-mini{
+    position:relative;
+    z-index:32;
+    display:block;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    color:#b0b0b0;
+    background:#424242;
+    text-decoration:none;
+    cursor:pointer;
+    font-size:12px;
+
+}
+
+.site-topbar .cart-menu{
+    position:absolute;
+    right:0;
+    top:40px;
+    z-index:31;
+    width:316px;
+    padding:15px 0 0;
+    color:#424242;
+    background:#fff;
+    box-shadow:0 2px 10px rgba(0 0 0 0.15);
+    font-size:12px;
+
+}
+
+.site-topbar .i.iconfont{
+    margin-right:4px;
+    font-size:20px;
+    line-height:10px;
+    vertical-align:-4px;
+    font-family:"iconfont" !important;
+    font-style:normal;
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-stroke-width:0.2px;
+    text-align:center;
+    color:#b0b0b0;
+    cursor:pointer;
+}
+
+.site-topbar .topbar-info{
+    line-height:40px;
+    position:relative;
+    float:right;
+    height:40px;
+    display:block;
+    font-size:12px;
+    color:#b0b0b0;
+
+}
+
+.site-topbar .cart-menu .loader{
+    transform-origin:50% 50%;
+    animation-name:loader;
+    animation-duration:3s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate-reverse;
+    position:relative;
+    margin:0 auto;
+    width:4px;
+    height:20px;
+    background:#ff6700;
+    overflow:visible;
+    transform:scale(1,1);
+    text-align:center;
+    color:#424242;
+    font-size:12px;
+
+}
+
+.site-topbar .topbar-info{
+    line-height:40px;
+    position:relative;
+    float:right;
+    height:40px;
+    display:block;
+    font-size:12px;
+    color:#b0b0b0;
+
+}
+
+.site-topbar .topbar-info a{
+    padding:0 5px;
+    text-align:center;
+    float:left;
+    line-height:40px;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+.site-topbar .topbar-info .sep{
+    margin:0;
+    float:left;
+    color:#424242;
+    line-height:40px;
+
+}
+
+.site-topbar .topbar-info .message{
+    float:left;
+    padding:0 10px;
+    line-height:40px;
+    
+}
+
+.site-header{
+    position:relative;
+    z-index:20;
+    height:100px;
+    color:#333;
+
+}
+
+.site-header .container{
+    position:relative;
+    width:1226px;
+    margin-right:auto;
+    margin-left:auto;
+    color:#333;
+    content:" ";
+    display:table;
+    clear:both;
+}
+
+.site-header .header-logo{
+    float:left;
+    width:62px;
+    margin-top:22px;
+
+}
+
+.site-header .logo{
+    position:relative;
+    display:block;
+    width:55px;
+    height:55px;
+    overflow:hidden;
+    background-color:#ff6700;
+    text-align:left;
+    text-indent:-9999em;
+    color:#757575;
+    text-decoration:none;
+
+}
+
+.site-header .header-nav{
+    float:left;
+    width:850px;
+    color:#333;
+
+}
+
+.site-header .nav-list{
+    position: relative;
+    z-index:10;
+    float:left;
+    width:820px;
+    height:88px;
+    margin:0;
+    padding:12px 0 0 30px;
+    list-style-type:none;
+    font-size:16px;
+    display:table;
+    clear:both;
+    margin-block-start:1em;
+    margin-block-end: 1em;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-block-start: 40px;
+    color:#333;
+}
+
+.site-header .nav-category{
+    position: relative;
+    float:left;
+    width:127px;
+    padding-right:15px;
+    display:list-item;
+    list-style-type:none;
+    font-size:16px;
+    color:#333;
+}
+
+.site-header .link-category{
+    visibility:hidden;
+    display:block;
+    padding:26px 0 38px;
+    text-align:right;
+    color:#333;
+    text-decoration:none;
+    cursor:pointer;
+    list-style-type:none;
+    font-size:16px;
+}
+
+.site-category{
+    display:block;
+    position:absolute;
+    top:88px;
+    left:-92px;
+    z-index:21;
+    width:234px;
+    height:460px;
+    font-size:14px;
+    list-style-type:none;
+    color:#333;
+    text-align:-webkit-match-parent;
+}
+
+.site-category .categoryList{
+    height:420px;
+    border:0;
+    color:#fff;
+    background:rgba(0,0,0,0.6);
+    margin:0;
+    padding:20px 0;
+    list-style-type:none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 40px;
+    font-size:14px;
+    display:table;
+    clear:both;
+}
+
+.site-category .category-item{
+    font-size:14px;
+    list-style-type:none;
+    display:list-item;
+}
+
+.site-category-a{
+    color:#fff;
+    position: relative;
+    display: block;
+    padding-left: 30px;
+    height: 42px;
+    line-height:42px;
+    text-decoration: none;
+    cursor: pointer;
+    list-style-type: none;
+    font-size: 14px;
+}
+.site-category .i.iconfont{
+    color:rgba(255,255,255,0.5);
+    position: absolute;
+    top:12px;
+    right:20px;
+    font-size:16px;
+    line-height:16px;
+    font-family: "icofont" !important;
+    font-style:normal;
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    list-style-type: none;
+
+
+}
